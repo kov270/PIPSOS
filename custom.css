@@ -1,0 +1,37 @@
+body {
+    background-color: #fff;
+    margin: 0;
+}
+/* Селектор элемента */
+
+.main_head {
+    font-family: sans-serif;
+    color: black;
+    font-size: 1rem;
+}
+/* Селектор классов */
+
+#y {
+    border-radius: 0;
+    border-color: inherit;
+    margin-top: 5%;
+}
+/* Селектор идентификаторов */
+
+.btn:hover {
+    border-color: white;
+    border-width: 3px;
+}
+/* Селектор псевдокласса */
+
+h1::first-letter {
+    font-size: 10rem;
+}
+/* Селектор псевдоэлементов */
+
+
+fieldset > table {
+    background-color: #f6f6f6;
+}
+/* Наследование */
+
